@@ -38,12 +38,12 @@ namespace BindablesExample
 
         public static string GetSomeAP(DependencyObject obj)
         {
-            throw new WillBeImplementedByBindablesException(); // Cette ligne est obligatoire
+            throw new WillBeImplementedByBindablesException(); // Mandatory
         }
 
         public static void SetSomeAP(DependencyObject obj, string value)
         {
-            // Doit être vide.
+            // Must be empty
         }
     }
 }
